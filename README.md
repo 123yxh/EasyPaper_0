@@ -35,12 +35,13 @@ Due to some privacy reasons, we did not open source some of the crawler code, bu
 You can experience the full functionality through our cloud deployment:
 🔗 **[Try it here](http://47.122.37.248:65523/)**  
 
-We welcome all feedback and issue reports on GitHub - your input will guide our future optimizations. This is just the beginning - we're committed to continuously improving the tool to revolutionize literature research.
+Welcome all feedback and issue reports on GitHub - your input will guide our future optimizations. This is just the beginning - we're committed to continuously improving the tool to revolutionize literature research.
 
 ### Expected additional features
 - Expand databases such as Elsevier, Google Scholar, etc
 - Support one click export of all queried data to Word
 - Support the download and jump analysis of individual literature
+...
 
 ### Acknowledgments
 Special thanks to **SW** and **BS** for their valuable contributions. Interested in joining our development team? Feel free to reach out!
