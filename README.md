@@ -11,9 +11,9 @@ Introducing our powerful tool designed to streamline your literature research pr
 
 #### ✅ Smart Literature Search
 - Provide your search requirements and keywords to retrieve the most relevant papers from arXiv, IEEE, and SciHub.
-- Requires registration with a model provider and API key.
+- Requires registration with a LLM model provider and API key.
 
-- Currently supports DeepSeek and Silicon Flow models (more options coming soon).
+- Currently supports DeepSeek and SiliconFlow (more options coming soon).
 
 - **Note**: Larger models deliver better analysis but require more processing time.
 
