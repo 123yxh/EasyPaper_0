@@ -9,7 +9,7 @@ Introducing our powerful tool designed to streamline your literature research pr
 
 ### Key Features
 
-#### 1. Smart Literature Search
+#### ✅ Smart Literature Search
 - Provide your search requirements and keywords to retrieve the most relevant papers from arXiv, IEEE, and SciHub.
 - Requires registration with a model provider and API key.
 
@@ -18,7 +18,7 @@ Introducing our powerful tool designed to streamline your literature research pr
 - **Note**: Larger models deliver better analysis but require more processing time.
 
 
-#### 2. Single/Multiple Document Analysis
+#### ✅ Single/Multiple Document Analysis
 
 - Upload PDFs and interact with our AI model to get answers to your questions.
 
