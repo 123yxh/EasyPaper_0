@@ -33,7 +33,7 @@ Due to some privacy reasons, we did not open source some of the crawler code, bu
 **⚠️Some Brothers, Some⚠️**
 
 You can experience the full functionality through our cloud deployment:
-http://47.122.37.248:65523/
+🔗 **[Try it here](http://47.122.37.248:65523/)**  
 
 We welcome all feedback and issue reports on GitHub - your input will guide our future optimizations. This is just the beginning - we're committed to continuously improving the tool to revolutionize literature research.
 
