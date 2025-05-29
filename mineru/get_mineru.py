@@ -44,41 +44,6 @@ def process_pdf(pdf_file_path, progress_callback=None):
     markdown_content = pipe_result.get_markdown(image_dir)
 
     return markdown_content, image_dir
-# def process_pdf(pdf_file_path):
-#     """Process the PDF file and return markdown content and images directory"""
-#     # Get the PDF file path without extension
-#     pdf_file_path_without_suff = os.path.splitext(pdf_file_path)[0]
-
-#     # File directory
-#     pdf_file_path_parent_dir = os.path.dirname(pdf_file_path)
-#     image_dir = os.path.join(pdf_file_path_parent_dir, "images")
-
-#     # Create writers
-#     writer_markdown = FileBasedDataWriter()
-#     writer_image = FileBasedDataWriter(image_dir)
-
-#     # Read PDF file
-#     reader_pdf = FileBasedDataReader("")
-#     bytes_pdf = reader_pdf.read(pdf_file_path)
-
-#     # Process data
-#     dataset_pdf = PymuDocDataset(bytes_pdf)
-
-#     # Check if OCR is needed
-#     if dataset_pdf.classify() == SupportedPdfParseMethod.OCR:
-#         # With OCR
-#         infer_result = dataset_pdf.apply(doc_analyze, ocr=True)
-#         pipe_result = infer_result.pipe_ocr_mode(writer_image)
-#     else:
-#         # Without OCR
-#         infer_result = dataset_pdf.apply(doc_analyze, ocr=False)
-#         pipe_result = infer_result.pipe_txt_mode(writer_image)
-
-#     # Get markdown content
-#     markdown_content = pipe_result.get_markdown(image_dir)
-
-#     return markdown_content, image_dir
-
 
 def create_zip(image_dir):
     """Create a zip file from the images directory"""
