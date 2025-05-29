@@ -17,19 +17,12 @@ import re
 
 def extract_english_keywords(text: str) -> list:
     """
-    更健壮的英文关键词提取函数
-
-    特点：
+    英文关键词提取函数
     1. 不依赖严格的标点符号格式
     2. 支持多种分隔符（逗号、分号、空格等）
     3. 自动过滤空白和无效项
-
-    示例输入：
-    "英文关键词: llm, hfl, md" -> ["llm", "hfl", "md"]
-    "英文关键词 llm hfl md" -> ["llm", "hfl", "md"]
-    "英文关键词：llm；hfl；md" -> ["llm", "hfl", "md"]
     """
-    # 更灵活的正则表达式，匹配多种格式
+    # 正则表达式，匹配多种格式
     match = re.search(
         r'(?:英文关键词|keywords?)[:\s]*([^;\n]+)',
         text,
@@ -59,7 +52,7 @@ def extract_english_keywords(text: str) -> list:
 
 def extract_score(text: str) -> dict:
     """
-    从LLM响应中提取评分信息的鲁棒方法
+    LLM响应中提取评分信息
 
     返回: {
         "total": int,
