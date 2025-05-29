@@ -28,7 +28,7 @@ def initialize_session_state():
     if 'model_provider' not in st.session_state:
         st.session_state.model_provider = list(MODEL_PROVIDERS.keys())[0]
     if 'api_key' not in st.session_state:
-        st.session_state.api_key = "sk-nwjkawrushqhhpsaommqxplrcmcacmebckipndpnxwjkqnst" # 调试时使用
+        st.session_state.api_key = "-" # 调试时使用
         # st.session_state.api_key = ""
     if 'keyword_model' not in st.session_state:
         st.session_state.keyword_model = MODEL_PROVIDERS[st.session_state.model_provider]["models"][1]
@@ -215,11 +215,11 @@ def main():
                     import bcrypt
                     try:
                         conn = mysql.connector.connect(
-                            host="47.122.37.248",
-                            user="yxh",
-                            password="iMn2bZDnyNyNtRFW",
+                            host="--",
+                            user="---",
+                            password="----",
                             database="easypaper",
-                            port=3306
+                            port=""
                         )
                         cursor = conn.cursor()
                         cursor.execute("SELECT id FROM users WHERE username = %s", (username,))
