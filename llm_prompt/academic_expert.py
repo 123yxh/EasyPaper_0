@@ -12,9 +12,6 @@ from .model_config import MODEL_PROVIDERS
 #     keywords_str = match.group(1).strip().rstrip(';')
 #     return [kw.strip() for kw in keywords_str.split(',')]
 
-import re
-
-
 def extract_english_keywords(text: str) -> list:
     """
     英文关键词提取函数
