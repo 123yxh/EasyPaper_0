@@ -44,4 +44,4 @@ Welcome all feedback and issue reports on GitHub - your input will guide our fut
 ...
 
 ### Acknowledgments
-Special thanks to **SW** and **BS** for their valuable contributions. Interested in joining our development team? Feel free to reach out!
+Special thanks to **SSW** and **GBS** for their valuable contributions. Interested in joining our development team? Feel free to reach out!
