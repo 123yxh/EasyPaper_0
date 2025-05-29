@@ -30,7 +30,7 @@ Introducing our powerful tool designed to streamline your literature research pr
 
 Due to some privacy reasons, we did not open source some of the crawler code, but you may wonder, is there a way for me to experience it?
 
-**Some Brothers, Some.**
+**⚠️Some Brothers, Some⚠️**
 
 You can experience the full functionality through our cloud deployment:
 
