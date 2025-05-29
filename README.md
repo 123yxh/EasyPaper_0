@@ -41,6 +41,6 @@ We welcome all feedback and issue reports on GitHub - your input will guide our 
 - Expand databases such as Elsevier, Google Scholar, etc
 - Support one click export of all queried data to Word
 - Support the download and jump analysis of individual literature
-- 
+
 ### Acknowledgments
 Special thanks to **SW** and **BS** for their valuable contributions. Interested in joining our development team? Feel free to reach out!
