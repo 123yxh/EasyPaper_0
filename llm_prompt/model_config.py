@@ -8,7 +8,7 @@ MODEL_PROVIDERS = {
             "Qwen/Qwen1.5-72B"
         ]
     },
-    "DeppSeek": {
+    "DeepSeek": {
         "base_url": "https://api.deepseek.com",
         "models": [
             "deepseek-reasoner",
