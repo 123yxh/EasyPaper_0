@@ -3,7 +3,7 @@
     <img src="figure_file/jh.jpeg" width="55%" style="max-width: 300px;">
 </p>
 
-### EasyPaper is An efficient literature search and analysis tool.
+### EasyPaper is an efficient literature search and analysis tool.
 
 Introducing our powerful tool designed to streamline your literature research process.
 
