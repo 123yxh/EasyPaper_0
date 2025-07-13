@@ -1,0 +1,28 @@
+{
+  "get_current_time": {
+    "command": "python",
+    "args": [
+      "./mcp_server_time.py"
+    ],
+    "transport": "stdio"
+  },
+  "get_current_weather":{
+    "command": "python",
+    "args": ["./mcp_server_local_weather.py"],
+    "transport": "stdio"
+  },
+  "exa": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@smithery/cli@latest",
+      "run",
+      "exa",
+      "--key",
+      "98d7b66a-72f7-4c7c-a274-9b0ed7a03cc6",
+      "--profile",
+      "legal-starfish-ajRKGr"
+    ],
+    "transport": "stdio"
+  }
+}
