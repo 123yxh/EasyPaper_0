@@ -45,7 +45,7 @@ Is there a way for me to experience it?
 **⚠️ Some Brothers, Some ⚠️**
 
 You can experience the full functionality through our cloud deployment:
-🔗 **[Try it here](http://47.122.37.248:65523/)**  
+🔗 **[Try it here](http://47.104.235.195:8501/)**  
 
 Welcome all feedback and issue reports on GitHub - your input will guide our future optimizations. This is just the beginning - we're committed to continuously improving the tool to revolutionize literature research.
 ### 🚀 Acknowledgments
