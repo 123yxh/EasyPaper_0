@@ -51,5 +51,5 @@ Welcome all feedback and issue reports on GitHub - your input will guide our fut
 ### 🚀 Acknowledgments
 Special thanks to **SSW**, **GBS** and other open projects for their valuable contributions. Interested in joining our development team? Feel free to reach out!
 <p align="center">
-    <img src="figure_file/wxg.png" width="55%" style="max-width: 300px;">
+    <img src="figure_file/wxg.png" width="35%" style="max-width: 300px;">
 </p>
